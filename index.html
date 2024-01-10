@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Nation Hackathon Chicago</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Your CSS Linked Below-->
+    <link rel="stylesheet" href="/styles.css" />
+    <!-- jQuery Linked Below-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your Javascript Linked Below-->
+    <script src="/script.js" defer></script>
+    <script src="/object.js" defer></script>
+  </head>
+  <body>
+    <div class="mainPage">
+      <div class="center">
+        <button class="directionButton northButton">North</button>
+      </div>
+      <div class="space-between">
+        <button class="directionButton westButton" action="/adventure.html">
+          West
+        </button>
+
+        <h6 class="theme">Best of Chicago</h6>
+        <button class="directionButton eastButton" action="/adventure.html">
+          East
+        </button>
+      </div>
+      <div class="center">
+        <button class="directionButton southButton" action="/adventure.html">
+          South
+        </button>
+      </div>
+    </div>
+
+    <div class="adventurePage">
+      <!--   HEADER -- start   -->
+      <!--   HEADER -- end   -->
+
+      <!--   PREFS -- start   -->
+      <div class="FAA">
+        <!--   PREFS – FOOD -- start     -->
+        <div class="FAA-col Food">
+          <h1>Food</h1>
+          <p class="pref-questions">Price range</p>
+          <select class="food-price pref-questions">
+            <option value="$">$</option>
+            <option value="$$">$$</option>
+            <option value="$$$">$$$</option>
+          </select>
+          <div class="pref-questions">
+            <select name="How far do you wan to go?">
+              <option value="Walk">Walking</option>
+              <option value="PT">Public Transport</option>
+              <option value="Car">Car</option>
+            </select>
+          </div>
+          <div class="pref-questions">
+            <select name="Culture">
+              <option value="Mexican">Mexican</option>
+              <option value="Asain">Asain</option>
+              <option value="American">American</option>
+            </select>
+          </div>
+          <div class="pref-result pf-food"></div>
+          <!--    close food slider      -->
+        </div>
+        <!--    PREF - FOOD -- end    -->
+
+        <!--   PREFS – ART -- start     -->
+        <div class="FAA-col Art">
+          <h1>Art</h1>
+          <p class="pref-questions"></p>
+          <select class="art-price pref-questions">
+            <option value="$">$</option>
+            <option value="$$">$$</option>
+            <option value="$$$">$$$</option>
+          </select>
+          <div class="pref-questions">
+            <select name="How far do you wan to go?">
+              <option value="Walk">Walking</option>
+              <option value="PT">Public Transport</option>
+              <option value="Car">Car</option>
+            </select>
+          </div>
+          <div class="pref-questions">
+            <select name="Culture">
+              <option value="Mexican">Mexican</option>
+              <option value="Asain">Asain</option>
+              <option value="American">American</option>
+            </select>
+          </div>
+          <div class="pref-result pf-art"></div>
+        </div>
+
+        <!--  PREFS - ART -- end      -->
+
+        <!--   PREFS – ATTR -- start     -->
+        <div class="FAA-col Attraction">
+          <h1>Attraction</h1>
+          <div class="pref-result pf-attc">
+            <p>Price range</p>
+          </div>
+
+          <div class="pref-questions">
+            <p>Price range</p>
+            <select class="attr-price">
+              <option value="$">$</option>
+              <option value="$$">$$</option>
+              <option value="$$$">$$$</option>
+            </select>
+          </div>
+          <div class="pref-questions">
+            <select name="How far do you wan to go?">
+              <option value="Walk">Walking</option>
+              <option value="PT">Public Transport</option>
+              <option value="Car">Car</option>
+            </select>
+          </div>
+          <div class="pref-questions">
+            <select name="Culture">
+              <option value="Mexican">Mexican</option>
+              <option value="Asain">Asain</option>
+              <option value="American">American</option>
+            </select>
+          </div>
+        </div>
+
+        <!--  PREFS - ATTR -- end      -->
+
+        <!--   PREFS -- end   -->
+      </div>
+
+      <!--  SUBMIT -- start      -->
+      <div class="submit-prefs">
+        <button class="submit-pref-button">Submit</button>
+      </div>
+
+      <div class="back-to-prefs">
+        <button class="back-to-pref-button">Back</button>
+      </div>
+      <!--  SUBMIT -- end      -->
+    </div>
+  </body>
+</html>
