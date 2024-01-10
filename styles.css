@@ -1,0 +1,114 @@
+.FAA-col {
+  color: #6d338a;
+  font-size: 20px;
+
+  border: 5px solid black;
+  margin: 50px;
+  background-color: white;
+  opacity: 90%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.space-between {
+  display: flex;
+  justify-content: space-around;
+}
+
+.directionButton {
+  padding: 5%;
+  opacity: 90%;
+}
+
+.tourist {
+  display: flex;
+  justify-content: space-around;
+  border: 50px;
+  padding: 10px;
+  border: 10px;
+}
+
+.header {
+  font-size: 40px;
+  justify-content: center;
+}
+
+.FAA {
+  display: flex;
+  border: solid, 10px, black;
+  margin: 10px;
+  padding: 20px;
+  justify-content: space-around;
+  justify-content: rows;
+  flex-wrap: nowrap;
+}
+
+h6 {
+  font-size: 50px;
+  color: white;
+  font-family: cursive;
+}
+.location {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: url("https://cdn.glitch.global/527a32f1-1f32-435e-aa23-75e11adc7f80/downtown.jpeg?v=1653158567625");
+}
+.mainPage {
+  background-color: ;
+}
+.range-slider {
+  padding-top: 100px;
+  padding-right: 50px;
+}
+.submit-prefs {
+  display: flex;
+  justify-content: center;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+  color: black;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 75%;
+  padding: 25px;
+}
+
+.pref-result {
+  display: none;
+  color: green;
+}
+
+.adventurePage {
+  display: none;
+}
+
+.submit-pref-button {
+  padding: 30px;
+}
+
+.back-to-prefs {
+  display: flex;
+  justify-content: center;
+}
+
+.back-to-prefs-button {
+  padding: 30px;
+}
